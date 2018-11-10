@@ -4,7 +4,5 @@ condiom 30
 condiom 10
 test 11
 test 23
-1 0
-2 0
-3 0
-4 0
+asdad 0
+ 0

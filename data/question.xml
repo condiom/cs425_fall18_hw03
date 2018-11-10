@@ -1,0 +1,1953 @@
+<?xml version='1.0' standalone='yes'?>
+<questions>
+  <question>
+    <q>
+      This island was Englands first overseas colony.
+    </q>
+    <a>
+      Rhodes
+    </a>
+    <b>
+      Newfoundland
+    </b>
+    <c>
+      Iceland
+    </c>
+    <d>
+      Greenland
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      0
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      In what year did the French Revolution begin?
+    </q>
+    <a>
+      1789
+    </a>
+    <b>
+      1693
+    </b>
+    <c>
+      1724
+    </c>
+    <d>
+      1637
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      1
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What French monarch was known as the Sun King?
+    </q>
+    <a>
+      Louis X
+    </a>
+    <b>
+      Charles VII
+    </b>
+    <c>
+      Louis XIV
+    </c>
+    <d>
+      Henry III
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      2
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      This musician sang about an Uptown Girl in 1983.
+    </q>
+    <a>
+      Bryan Adams
+    </a>
+    <b>
+      Paul Simon
+    </b>
+    <c>
+      Elton John
+    </c>
+    <d>
+      Billy Joel
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      3
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      In what state was Claus von Bulow prosecuted?
+    </q>
+    <a>
+      Rhode Island
+    </a>
+    <b>
+      Arkansas
+    </b>
+    <c>
+      Illinois
+    </c>
+    <d>
+      Virginia
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      4
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who directed the 1986 movie Platoon?
+    </q>
+    <a>
+      Oliver Stone
+    </a>
+    <b>
+      Willem Dafoe
+    </b>
+    <c>
+      Brian DePalma
+    </c>
+    <d>
+      Tom Berenger
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      5
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who directed the 1989 movie Casualties of War?
+    </q>
+    <a>
+      Brian DePalma
+    </a>
+    <b>
+      Oliver Stone
+    </b>
+    <c>
+      Stanley Kubrick
+    </c>
+    <d>
+      Ray Kellogg
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      6
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who directed the 1987 film Full Metal Jacket?
+    </q>
+    <a>
+      Oliver Stone
+    </a>
+    <b>
+      Roy Kovic
+    </b>
+    <c>
+      Stanley Kubrick
+    </c>
+    <d>
+      Brian DePalma
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      7
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who directed the 1979 movie Apocalypse Now?
+    </q>
+    <a>
+      Francis Ford Coppola
+    </a>
+    <b>
+      Oliver Stone
+    </b>
+    <c>
+      Brian DePalma
+    </c>
+    <d>
+      Stanley Kubrick
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      8
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What year did the Holocaust begin?
+    </q>
+    <a>
+      1929
+    </a>
+    <b>
+      1945
+    </b>
+    <c>
+      1946
+    </c>
+    <d>
+      1933
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      9
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Which was the first Egyptian pyramid?
+    </q>
+    <a>
+      The Red pyramid
+    </a>
+    <b>
+      The Great pyramid
+    </b>
+    <c>
+      The Bent Pyramid
+    </c>
+    <d>
+      The Step Pyramid
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      10
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What was Cleopatras ethnic background?
+    </q>
+    <a>
+      Roman
+    </a>
+    <b>
+      Macedonian
+    </b>
+    <c>
+      Upper Egyptian
+    </c>
+    <d>
+      Lower Egyptian
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      11
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who unified Upper and Lower Egypt?
+    </q>
+    <a>
+      Thutmose III
+    </a>
+    <b>
+      Kahfre
+    </b>
+    <c>
+      Imhotep
+    </c>
+    <d>
+      Menes
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      12
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who was the father of Alexander the Great?
+    </q>
+    <a>
+      Hercalesian III
+    </a>
+    <b>
+      Triton
+    </b>
+    <c>
+      Philip II
+    </c>
+    <d>
+      Lysander
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      13
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Name Alexander the Greats favorite horse.
+    </q>
+    <a>
+      Xerxes
+    </a>
+    <b>
+      Sargon
+    </b>
+    <c>
+      Bucephalus
+    </c>
+    <d>
+      Hammurabi
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      14
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What was Elvis Presleys first motion picture?
+    </q>
+    <a>
+      Love Me Tender
+    </a>
+    <b>
+      Giant
+    </b>
+    <c>
+      Viva Las Vegas
+    </c>
+    <d>
+      Jailhouse Rock
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      15
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      1783 Treaty of Paris was signed on this day.
+    </q>
+    <a>
+      November 5
+    </a>
+    <b>
+      December 6
+    </b>
+    <c>
+      October 4
+    </c>
+    <d>
+      September 3
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      16
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Elkhorn Tavern is located on which battlefield?
+    </q>
+    <a>
+      Pea Ridge
+    </a>
+    <b>
+      Chickamauga
+    </b>
+    <c>
+      Franklin
+    </c>
+    <d>
+      Wilsons Creek
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      17
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Where was the Mule Shoe located?
+    </q>
+    <a>
+      The WIlderness
+    </a>
+    <b>
+      Murfreesboro
+    </b>
+    <c>
+      Spotsylvania
+    </c>
+    <d>
+      Appomattox
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      18
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Where is the Field of Lost Shoes located?
+    </q>
+    <a>
+      Lynchburg
+    </a>
+    <b>
+      McDowell
+    </b>
+    <c>
+      Kernstown
+    </c>
+    <d>
+      New Market
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      19
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      On what date did the Mayflower leave port?
+    </q>
+    <a>
+      September 13
+    </a>
+    <b>
+      September 20
+    </b>
+    <c>
+      September 16
+    </c>
+    <d>
+      September 6
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      20
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What is the Mayflowers estimated length?
+    </q>
+    <a>
+      80-100 feet
+    </a>
+    <b>
+      90-110 feet
+    </b>
+    <c>
+      115-130 feet
+    </c>
+    <d>
+      100-125 feet
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      21
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      How wide was the Mayflower estimated to be?
+    </q>
+    <a>
+      40 feet
+    </a>
+    <b>
+      25 feet
+    </b>
+    <c>
+      20 feet
+    </c>
+    <d>
+      35 feet
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      22
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      This was Napoleons perfect battle.
+    </q>
+    <a>
+      Friedland
+    </a>
+    <b>
+      Jena
+    </b>
+    <c>
+      Waterloo
+    </c>
+    <d>
+      Austerlitz
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      23
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      This Mameluke was Napoleons constant attendant.
+    </q>
+    <a>
+      Roustam
+    </a>
+    <b>
+      Tommy
+    </b>
+    <c>
+      Karageorgio
+    </c>
+    <d>
+      Maltesta
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      24
+    </id>
+    <dificulty>
+      E
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      The first space tourist was this businessman.
+    </q>
+    <a>
+      Toyohiro Akiyama
+    </a>
+    <b>
+      Mark Shuttleworth
+    </b>
+    <c>
+      Dennis Tito
+    </c>
+    <d>
+      Lance Bass
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      25
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      How many miles represent a light year?
+    </q>
+    <a>
+      Nearly six trillion
+    </a>
+    <b>
+      Nearly six million
+    </b>
+    <c>
+      Nearly two trillion
+    </c>
+    <d>
+      Nearly two million
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      26
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      She popularized the mini.
+    </q>
+    <a>
+      Marilyn Monroe
+    </a>
+    <b>
+      Twiggy
+    </b>
+    <c>
+      Mary Quant
+    </c>
+    <d>
+      Marie Brizzard
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      27
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      He created Chanel No. 5 for Coco Chanel.
+    </q>
+    <a>
+      Ernest Beaux
+    </a>
+    <b>
+      Ralph Lauren
+    </b>
+    <c>
+      Yves Saint Laurent
+    </c>
+    <d>
+      Jean Patou
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      28
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Which medieval unit of volume is the largest?
+    </q>
+    <a>
+      Bushel
+    </a>
+    <b>
+      Tun
+    </b>
+    <c>
+      Gallon
+    </c>
+    <d>
+      Quarter
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      29
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Which language was the medieval lingua franca?
+    </q>
+    <a>
+      Latin
+    </a>
+    <b>
+      German
+    </b>
+    <c>
+      French
+    </c>
+    <d>
+      English
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      30
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Which entity was ruled by Frederic Barbarossa?
+    </q>
+    <a>
+      the Catholic Church
+    </a>
+    <b>
+      France
+    </b>
+    <c>
+      the Holy Roman Empire
+    </c>
+    <d>
+      England
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      31
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who was the first woman said to wear trousers?
+    </q>
+    <a>
+      Paula Abdul
+    </a>
+    <b>
+      Sarah Bernhardt
+    </b>
+    <c>
+      Gretta Garbo
+    </c>
+    <d>
+      Elizabeth Taylor
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      32
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who introduced the pollover sweater?
+    </q>
+    <a>
+      Yves Saint Laurent
+    </a>
+    <b>
+      Christian Dior
+    </b>
+    <c>
+      Gian Franco Ferre
+    </c>
+    <d>
+      Coco Channel
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      33
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Which of these dictators was the last to die?
+    </q>
+    <a>
+      Francisco Franco
+    </a>
+    <b>
+      Joseph Stalin
+    </b>
+    <c>
+      Benito Mussolini
+    </c>
+    <d>
+      Adolph Hitler
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      34
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who was Empress of Russia from 1741 to 1762?
+    </q>
+    <a>
+      Alexandra
+    </a>
+    <b>
+      Sophia
+    </b>
+    <c>
+      Elizabeth
+    </c>
+    <d>
+      Anne
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      35
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      How long was the Hundred Years War?
+    </q>
+    <a>
+      116 years
+    </a>
+    <b>
+      80 years
+    </b>
+    <c>
+      101 years
+    </c>
+    <d>
+      100 years
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      36
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      She was Esmeralda on Bewitched.
+    </q>
+    <a>
+      Alice Ghostley
+    </a>
+    <b>
+      Angela Riverton
+    </b>
+    <c>
+      Cathy Bates
+    </c>
+    <d>
+      Angela Channing
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      37
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What does the German word Blitzkrieg mean?
+    </q>
+    <a>
+      holy war
+    </a>
+    <b>
+      lightning war
+    </b>
+    <c>
+      patriotic war
+    </c>
+    <d>
+      speed war
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      38
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When did the United States enter World War II?
+    </q>
+    <a>
+      1942
+    </a>
+    <b>
+      1940
+    </b>
+    <c>
+      1943
+    </c>
+    <d>
+      1941
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      39
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      This man invaded modern day Great Britain.
+    </q>
+    <a>
+      Julius Caesar
+    </a>
+    <b>
+      Alexander the Great
+    </b>
+    <c>
+      Neither
+    </c>
+    <d>
+      Both
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      40
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      This man visited the other mans tomb.
+    </q>
+    <a>
+      Alexander the Great
+    </a>
+    <b>
+      Neither
+    </b>
+    <c>
+      Both
+    </c>
+    <d>
+      Julius Caesar
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      41
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      How long did the Battle of Gettysburg last?
+    </q>
+    <a>
+      3 days
+    </a>
+    <b>
+      2 days
+    </b>
+    <c>
+      7 days
+    </c>
+    <d>
+      4 days
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      42
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What was the last state to secede from the Union?
+    </q>
+    <a>
+      Tennessee
+    </a>
+    <b>
+      Louisiana
+    </b>
+    <c>
+      Arkansas
+    </c>
+    <d>
+      Texas
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      43
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What day in 1944 is referred to as D-Day?
+    </q>
+    <a>
+      June 6
+    </a>
+    <b>
+      August 2
+    </b>
+    <c>
+      June 10
+    </c>
+    <d>
+      May 9
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      44
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Where did the D-Day invasion occur?
+    </q>
+    <a>
+      Normandy
+    </a>
+    <b>
+      Cherbourg
+    </b>
+    <c>
+      Minsk
+    </c>
+    <d>
+      Warsaw
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      45
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Name the first state to secede from the Union.
+    </q>
+    <a>
+      Georgia
+    </a>
+    <b>
+      Virginia
+    </b>
+    <c>
+      Tennessee
+    </c>
+    <d>
+      South Carolina
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      46
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who was the first person in space?
+    </q>
+    <a>
+      Alexey Ivanovich
+    </a>
+    <b>
+      Alan Shepard
+    </b>
+    <c>
+      John Glen
+    </c>
+    <d>
+      Yuri Gagarin
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      47
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      How long did Hitlers Third Reich last?
+    </q>
+    <a>
+      14 years
+    </a>
+    <b>
+      12 years
+    </b>
+    <c>
+      6 years
+    </c>
+    <d>
+      4 years
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      48
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Holland means what in the ancient Dutch language?
+    </q>
+    <a>
+      Land of wood
+    </a>
+    <b>
+      Land of palm trees
+    </b>
+    <c>
+      Land of volcanoes
+    </c>
+    <d>
+      Land of deserts
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      49
+    </id>
+    <dificulty>
+      M
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Where was the assault rifle invented?
+    </q>
+    <a>
+      in Italy
+    </a>
+    <b>
+      in Mexico
+    </b>
+    <c>
+      in Germany
+    </c>
+    <d>
+      in Russia
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      50
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When was the first automatic revolver produced?
+    </q>
+    <a>
+      Between 1889 and 1891
+    </a>
+    <b>
+      Between 1923 and 1924
+    </b>
+    <c>
+      Between 1901 and 1903
+    </c>
+    <d>
+      Between 1961 and 1963
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      51
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When was a telescopic sight first put on a rifle?
+    </q>
+    <a>
+      1931
+    </a>
+    <b>
+      1880
+    </b>
+    <c>
+      1789
+    </c>
+    <d>
+      1939
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      52
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Which is the odd one out?
+    </q>
+    <a>
+      SWORDS
+    </a>
+    <b>
+      Dragon
+    </b>
+    <c>
+      Predator
+    </c>
+    <d>
+      TALON
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      53
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      These marks were a huge craze in the Middle Ages.
+    </q>
+    <a>
+      Pimples
+    </a>
+    <b>
+      Moles
+    </b>
+    <c>
+      Warts
+    </c>
+    <d>
+      Scars
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      54
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When did the Cuban Missile Crisis occur?
+    </q>
+    <a>
+      April 1963
+    </a>
+    <b>
+      November 1961
+    </b>
+    <c>
+      October 1962
+    </c>
+    <d>
+      August 1964
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      55
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When did the American Civil War break out?
+    </q>
+    <a>
+      1863
+    </a>
+    <b>
+      1862
+    </b>
+    <c>
+      1861
+    </c>
+    <d>
+      1860
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      56
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When did the Cuban Missile Crisis start?
+    </q>
+    <a>
+      1962
+    </a>
+    <b>
+      1964
+    </b>
+    <c>
+      1958
+    </c>
+    <d>
+      1960
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      57
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What was the name of Caligulas pet horse?
+    </q>
+    <a>
+      Succubus
+    </a>
+    <b>
+      Alemmani
+    </b>
+    <c>
+      Incitatus
+    </c>
+    <d>
+      Equus
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      58
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who made the first light bulb?
+    </q>
+    <a>
+      William Coolidge
+    </a>
+    <b>
+      N. Tesla
+    </b>
+    <c>
+      Thomas A. Edison
+    </c>
+    <d>
+      Joseph Swan
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      59
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who is given credit for inventing the neon light?
+    </q>
+    <a>
+      Peter Hewitt
+    </a>
+    <b>
+      Georges Claude
+    </b>
+    <c>
+      William Coolidge
+    </c>
+    <d>
+      Thomas Alva Edison
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      60
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Who made the first flashlight?
+    </q>
+    <a>
+      Joshua Lionel Cowen
+    </a>
+    <b>
+      John Evinrude
+    </b>
+    <c>
+      Peter Hewitt
+    </c>
+    <d>
+      Nickola Tesla
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      61
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Which of these games came first?
+    </q>
+    <a>
+      Madden NFL
+    </a>
+    <b>
+      Frogger
+    </b>
+    <c>
+      Super Mario brothers
+    </c>
+    <d>
+      Tetris
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      62
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When did the West Roman Empire cease to exist?
+    </q>
+    <a>
+      506 AD
+    </a>
+    <b>
+      458 AD
+    </b>
+    <c>
+      413 AD
+    </c>
+    <d>
+      476 AD
+    </d>
+    <correct>
+      D
+    </correct>
+    <id>
+      63
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When did the great migration of the Slavs begin?
+    </q>
+    <a>
+      in the 7th century
+    </a>
+    <b>
+      in the 9th century
+    </b>
+    <c>
+      in the 8th century
+    </c>
+    <d>
+      in the 10th century
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      64
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What does the term “Paleozoic” mean?
+    </q>
+    <a>
+      Recent life
+    </a>
+    <b>
+      Middle life
+    </b>
+    <c>
+      Ancient life
+    </c>
+    <d>
+      Age of ancient life
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      65
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      In which country did the name Gustav originate?
+    </q>
+    <a>
+      Norway
+    </a>
+    <b>
+      Sweden
+    </b>
+    <c>
+      Finland
+    </c>
+    <d>
+      Denmark
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      66
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      How long did the Battle of Antietam last?
+    </q>
+    <a>
+      7 days
+    </a>
+    <b>
+      5 days
+    </b>
+    <c>
+      1 day
+    </c>
+    <d>
+      3 days
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      67
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What does the term Cenozoic mean?
+    </q>
+    <a>
+      Mammalian life
+    </a>
+    <b>
+      Ancient life
+    </b>
+    <c>
+      Recent life
+    </c>
+    <d>
+      Middle life
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      68
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      How many epochs is the Cenozoic era divided into?
+    </q>
+    <a>
+      7
+    </a>
+    <b>
+      2
+    </b>
+    <c>
+      None of these
+    </c>
+    <d>
+      6
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      69
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What does the term Precambrian mean?
+    </q>
+    <a>
+      Middle life
+    </a>
+    <b>
+      Before-Cambrian
+    </b>
+    <c>
+      Recent life
+    </c>
+    <d>
+      Ancient life
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      70
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      When did the earth form?
+    </q>
+    <a>
+      12 billion years ago
+    </a>
+    <b>
+      3.8 billion years ago
+    </b>
+    <c>
+      4.5 billion years ago
+    </c>
+    <d>
+      250 million years ago
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      71
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Harvard College was founded in what year?
+    </q>
+    <a>
+      1790
+    </a>
+    <b>
+      1802
+    </b>
+    <c>
+      1636
+    </c>
+    <d>
+      1785
+    </d>
+    <correct>
+      C
+    </correct>
+    <id>
+      72
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      Dixie was composed in 1859 by this man.
+    </q>
+    <a>
+      Daniel Decatur Emmett
+    </a>
+    <b>
+      Jeff Davis
+    </b>
+    <c>
+      Joel Chandler Harris
+    </c>
+    <d>
+      Scott Joplin
+    </d>
+    <correct>
+      A
+    </correct>
+    <id>
+      73
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+  <question>
+    <q>
+      What war began in 1914?
+    </q>
+    <a>
+      Russo-Japanese war
+    </a>
+    <b>
+      World War I
+    </b>
+    <c>
+      World War II
+    </c>
+    <d>
+      Spanish-American war
+    </d>
+    <correct>
+      B
+    </correct>
+    <id>
+      74
+    </id>
+    <dificulty>
+      H
+    </dificulty>
+  </question>
+</questions>

@@ -6,6 +6,13 @@
 <div class="mainwidth">
 
   <h3 id="highscore">HighScore</h3>
+  <div class="highscoreContainer">
+    <table class="table">
+      <thead>
+        <td>Rank</td>
+        <td>Nickname</td>
+        <td>Score</td>
+      </thead>
 <?php
 
   function array_sort($array, $on, $order=SORT_ASC)
@@ -35,8 +42,10 @@
               break;
           }
 
+          $counter = 0;
           foreach ($sortable_array as $k => $v) {
-              $new_array[$k] = $array[$k];
+              $new_array[$counter] = $array[$k];
+              $counter = $counter +1;
           }
       }
 
@@ -59,14 +68,13 @@
   $counter2 = 0;
   while($counter2 < 10 and $counter2 < $counter){
  ?>
-  <div>
-    <?=$counter2." ".$highscore[$counter2]["nickname"]." ".$highscore[$counter2]["score"]?>
-  </div>
+    <?="<tr><td>".($counter2+1)."</td><td>".$highscore[$counter2]["nickname"]."</td><td>".$highscore[$counter2]["score"]."</td></tr>"?>
  <?php
   $counter2 = $counter2 + 1;
   }
  ?>
-
+</table>
+</div>
 </div>
 
 <?php

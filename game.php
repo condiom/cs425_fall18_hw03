@@ -1,5 +1,5 @@
 <?php
-  $maxQuestions = 2;
+  $maxQuestions = 10;
   if(isset($_SESSION["CurrentQuestion"]) && !isset($_POST["playagain"])){
     $_SESSION["CurrentQuestion"] = $_SESSION["CurrentQuestion"] + 1;
   }
@@ -15,41 +15,50 @@
       file_put_contents('data/highScores.txt', "\n".$nickname." ".$score , FILE_APPEND | LOCK_EX);
   }
 
-
-
-
 ?>
 
 <div class="mainwidth">
 
 <?php
   if($_SESSION["CurrentQuestion"]<=$maxQuestions){
+    $questions = simplexml_load_file ("data/question.xml");
+    $questionDificulty = "E";
+    if($questionDificulty=="E"){
+      $questionIndex = rand(0,24);
+    }
+    else if($questionDificulty=="M"){
+      $questionIndex = rand(25,49);
+    }
+    else{
+      $questionIndex = rand(50,74);
+    }
 ?>
 <div class="gameTop">
   <label class"counter"><?=$_SESSION["CurrentQuestion"]."/".$maxQuestions?></label>
   <label class="close"><a href="index.php">close</a></label>
 </div>
-<h3 class="question"> QUESTION</h3>
+<h3 class="question"> <?=$questions->question[$questionIndex]->q?> </h3>
 <form action="" method="post" class="gameForm">
   <div class="row">
     <div class="answerDiv">
       <input id="answerA" name="answer" class="answerBtn" type="radio" value="A" checked/>
-      <label class="answerLabel" for="answerA">answer A</label>
+      <label class="answerLabel" for="answerA"><?=$questions->question[$questionIndex]->a?></label>
     </div>
     <div class="answerDiv">
       <input id="answerB" name="answer" class="answerBtn" type="radio" value="B"/>
-      <label class="answerLabel" for="answerB">answer B</label>
+      <label class="answerLabel" for="answerB"><?=$questions->question[$questionIndex]->b?></label>
     </div>
   </div>
   <div class="row">
     <div class="answerDiv">
       <input id="answerC" name="answer" class="answerBtn" type="radio" value="C"/>
-      <label class="answerLabel" for="answerC">answer C</label>
+      <label class="answerLabel" for="answerC"><?=$questions->question[$questionIndex]->c?></label>
     </div>
     <div class="answerDiv">
       <input id="answerD" name="answer" class="answerBtn" type="radio" value="D"/>
-      <label class="answerLabel" for="answerD">answer D</label>
+      <label class="answerLabel" for="answerD"><?=$questions->question[$questionIndex]->d?></label>
     </div>
+    <input type="hidden" name="status" value="play">
   </div>
   <button type="submit" class="btn btn-success">NEXT</button>
 </form>

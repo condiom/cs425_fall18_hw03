@@ -3,6 +3,10 @@
   padding-top:20px;
 }
 
+img{
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 .navbar {
   height: 46px;
@@ -40,6 +44,10 @@ li a {
   text-decoration: none;
 }
 
+.mainContainer{
+  position:relative;
+  height: 100%;
+}
 body {
   margin: 0;
   background-color: cyan;
@@ -47,20 +55,22 @@ body {
 
 .mainwidth {
   margin: 0 10%;
+  padding-bottom: 68px;
 }
 
 .footer {
   text-align: center;
-  margin-bottom: 46px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   width: fit-content;
+  margin-left: auto;
+  display: inline-flex;
+}
+.footerContainer{
+
 }
 
 .top {
   width: 100%;
+  display: inline-flex;
   text-align: center;
   list-style-type: none;
   margin: 0;
@@ -69,7 +79,7 @@ body {
   background-color: #333;
   position: fixed;
   bottom: 0;
-  height: 46px;
+  height: 68px;
   z-index: 2;
 }
 
@@ -91,18 +101,17 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-@media (min-width: 700px) {
+@media  only screen and (min-width: 700px) {
   #biographyHeader {
     margin-top: 0;
   }
-  .footer-break {
-    display: none;
-  }
 }
 
-@media (max-width: 500px) {
+@media  only screen and (max-width: 500px) {
   .mainwidth {
     margin: 0 1%;
   }
@@ -164,4 +173,15 @@ body {
 
 #score {
   text-align: right;
+}
+
+.highscoreContainer{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.highscoreElement{
+  font-weight: bold;
+  font-size: large;
 }
