@@ -6,6 +6,7 @@
   else {
     $_SESSION["CurrentQuestion"] = 1;
     $_SESSION["Score"] = 0;
+    $_SESSION["currentDificulty"] = "M";
   }
 
 
@@ -20,18 +21,45 @@
 <div class="mainwidth">
 
 <?php
+  if($_SESSION["CurrentQuestion"]<=$maxQuestions+1 and $_SESSION["CurrentQuestion"]>1){
+    if(trim($_POST["answer"])==trim($_SESSION["previousCorrect"])){
+      if($_SESSION["previousDificulty"]=="E"){
+        $_SESSION["Score"] = $_SESSION["Score"] + 1;
+        $_SESSION["currentDificulty"] = "M";
+      }
+      else if($_SESSION["previousDificulty"]=="M"){
+        $_SESSION["Score"] = $_SESSION["Score"] + 2;
+        $_SESSION["currentDificulty"] = "H";
+      }
+      else {
+        $_SESSION["Score"] = $_SESSION["Score"] + 3;
+      }
+    }
+    else{
+      if(trim($_SESSION["previousDificulty"])=="H"){
+        $_SESSION["currentDificulty"] = "M";
+      }
+      else if(trim($_SESSION["previousDificulty"])=="M"){
+        $_SESSION["currentDificulty"] = "E";
+      }
+    }
+  }
+
   if($_SESSION["CurrentQuestion"]<=$maxQuestions){
     $questions = simplexml_load_file ("data/question.xml");
-    $questionDificulty = "E";
-    if($questionDificulty=="E"){
+
+    if($_SESSION["currentDificulty"]=="E"){
       $questionIndex = rand(0,24);
     }
-    else if($questionDificulty=="M"){
+    else if($_SESSION["currentDificulty"]=="M"){
       $questionIndex = rand(25,49);
     }
     else{
       $questionIndex = rand(50,74);
     }
+    $_SESSION["previousDificulty"] = $_SESSION["currentDificulty"];
+    $_SESSION["previousCorrect"] = (string)$questions->question[$questionIndex]->correct;
+
 ?>
 <div class="gameTop">
   <label class"counter"><?=$_SESSION["CurrentQuestion"]."/".$maxQuestions?></label>

@@ -6,3 +6,4 @@ test 11
 test 23
 asdad 0
  0
+condiom 4
