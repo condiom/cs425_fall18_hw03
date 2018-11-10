@@ -1,0 +1,167 @@
+#startH1,#highscore {
+  text-align: center;
+  padding-top:20px;
+}
+
+
+.navbar {
+  height: 46px;
+  position: relative;
+  z-index: 2;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: cyan;
+}
+
+.mainwidth {
+  margin: 0 10%;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 46px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+}
+
+.top {
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  height: 46px;
+  z-index: 2;
+}
+
+.topbutton {
+  width: 100%;
+}
+
+.top a:hover:not(.active) {
+  background-color: #111;
+}
+
+.top {
+  float: left;
+}
+
+.top a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  #biographyHeader {
+    margin-top: 0;
+  }
+  .footer-break {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .mainwidth {
+    margin: 0 1%;
+  }
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.startForm {
+  text-align: center;
+}
+
+.gameForm {
+  width: 100%;
+  text-align: center;
+}
+
+.answerBtn {}
+
+.answerLabel {}
+
+.answerDiv {
+  width: 50%;
+}
+
+.question {
+  text-align: center;
+}
+
+.counter {
+  float: left;
+}
+
+.close {}
+
+.gameTop {
+  padding-top: 20px;
+}
+
+.PlaySaveButtons {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.col-12, .col-6 {
+  padding: 0;
+}
+
+.nickname {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#score {
+  text-align: right;
+}
