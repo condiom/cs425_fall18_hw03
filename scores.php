@@ -25,11 +25,11 @@
               if (is_array($v)) {
                   foreach ($v as $k2 => $v2) {
                       if ($k2 == $on) {
-                          $sortable_array[$k] = $v2;
+                          $sortable_array[$k] = (int)$v2;
                       }
                   }
               } else {
-                  $sortable_array[$k] = $v;
+                  $sortable_array[$k] = (int)$v;
               }
           }
 

@@ -5,5 +5,9 @@ condiom 10
 test 11
 test 23
 asdad 0
- 0
 condiom 4
+condiom 5
+test 3
+condiom 5
+condiom 4
+condiom 14

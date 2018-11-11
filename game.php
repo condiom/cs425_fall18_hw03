@@ -7,6 +7,7 @@
     $_SESSION["CurrentQuestion"] = 1;
     $_SESSION["Score"] = 0;
     $_SESSION["currentDificulty"] = "M";
+    $_SESSION["playedId"] = array();
   }
 
 
@@ -18,7 +19,7 @@
 
 ?>
 
-<div class="mainwidth">
+<div class="mainwidth vertical-center">
 
 <?php
   if($_SESSION["CurrentQuestion"]<=$maxQuestions+1 and $_SESSION["CurrentQuestion"]>1){
@@ -50,13 +51,23 @@
 
     if($_SESSION["currentDificulty"]=="E"){
       $questionIndex = rand(0,24);
+      while (in_array($questionIndex,$_SESSION["playedId"])) {
+        $questionIndex = rand(0,24);
+      }
     }
     else if($_SESSION["currentDificulty"]=="M"){
       $questionIndex = rand(25,49);
+      while (in_array($questionIndex,$_SESSION["playedId"])) {
+        $questionIndex = rand(25,49);
+      }
     }
     else{
       $questionIndex = rand(50,74);
+      while (in_array($questionIndex,$_SESSION["playedId"])) {
+        $questionIndex = rand(50,74);
+      }
     }
+    array_push($_SESSION["playedId"],$questionIndex);
     $_SESSION["previousDificulty"] = $_SESSION["currentDificulty"];
     $_SESSION["previousCorrect"] = (string)$questions->question[$questionIndex]->correct;
 
@@ -88,13 +99,12 @@
     </div>
     <input type="hidden" name="status" value="play">
   </div>
-  <button type="submit" class="btn btn-success">NEXT</button>
+  <button type="submit" class="btn btn-success nextBtn">NEXT</button>
 </form>
 
 <?php
   }else{
 ?>
-<div class="vertical-center">
 <form action="" method="post" class="saveForm">
     <div class="row col-12">
       <label class="col-6"> Score: </label>
@@ -102,7 +112,7 @@
     </div>
       <div class="row col-12">
         <?php if(!isset($_POST["save"])){ ?>
-          <label class="col-6 nickname">Nick Name: </label>
+          <label class="col-6 nickname">Nicname: </label>
           <input type="text" name="nickname" class="col-6"/>
         <?php } else { ?>
             <label class="col-12">Your score saved</label>
@@ -116,7 +126,6 @@
     <?php } ?>
   </div>
 </form>
-</div>
 <?php
   }
 ?>

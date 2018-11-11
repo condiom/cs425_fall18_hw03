@@ -3,6 +3,10 @@
   padding-top:20px;
 }
 
+.nextBtn{
+  float: right;
+  margin-top: 1rem;
+}
 img{
   margin-top: auto;
   margin-bottom: auto;
