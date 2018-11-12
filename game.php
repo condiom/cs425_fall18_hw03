@@ -1,5 +1,5 @@
 <?php
-  $maxQuestions = 10;
+  $maxQuestions = 5;
   if(isset($_SESSION["CurrentQuestion"]) && !isset($_POST["playagain"])){
     $_SESSION["CurrentQuestion"] = $_SESSION["CurrentQuestion"] + 1;
   }
@@ -8,6 +8,8 @@
     $_SESSION["Score"] = 0;
     $_SESSION["currentDificulty"] = "M";
     $_SESSION["playedId"] = array();
+    $_SESSION["correctOrNot"] = array();
+    $_SESSION["difficulties"] = array();
   }
 
 
@@ -19,24 +21,27 @@
 
 ?>
 
-<div class="mainwidth vertical-center">
+<div class="mainwidth <?php if($_SESSION["CurrentQuestion"]<=$maxQuestions){ echo "vertical-center";} ?>">
 
 <?php
   if($_SESSION["CurrentQuestion"]<=$maxQuestions+1 and $_SESSION["CurrentQuestion"]>1){
+    array_push($_SESSION["difficulties"],trim($_SESSION["previousDificulty"]));
     if(trim($_POST["answer"])==trim($_SESSION["previousCorrect"])){
+      array_push($_SESSION["correctOrNot"],'1');
       if($_SESSION["previousDificulty"]=="E"){
-        $_SESSION["Score"] = $_SESSION["Score"] + 1;
+        $_SESSION["Score"] = $_SESSION["Score"] + 5;
         $_SESSION["currentDificulty"] = "M";
       }
       else if($_SESSION["previousDificulty"]=="M"){
-        $_SESSION["Score"] = $_SESSION["Score"] + 2;
+        $_SESSION["Score"] = $_SESSION["Score"] + 10;
         $_SESSION["currentDificulty"] = "H";
       }
       else {
-        $_SESSION["Score"] = $_SESSION["Score"] + 3;
+        $_SESSION["Score"] = $_SESSION["Score"] + 20;
       }
     }
     else{
+      array_push($_SESSION["correctOrNot"],'0');
       if(trim($_SESSION["previousDificulty"])=="H"){
         $_SESSION["currentDificulty"] = "M";
       }
@@ -99,12 +104,63 @@
     </div>
     <input type="hidden" name="status" value="play">
   </div>
-  <button type="submit" class="btn btn-success nextBtn">NEXT</button>
+  <?php if($_SESSION["CurrentQuestion"]==$maxQuestions){ ?>
+    <button type="submit" class="btn btn-success nextBtn">FINISH</button>
+  <?php }else{ ?>
+    <button type="submit" class="btn btn-success nextBtn">NEXT</button>
+  <?php } ?>
+
 </form>
 
 <?php
   }else{
 ?>
+<h3 id="highscore">Questions</h3>
+<div class="highscoreContainer">
+  <table class="table">
+    <thead>
+      <td>No.</td>
+      <td>Correct</td>
+      <td>Difficulty</td>
+    </thead>
+<?php
+    $j = 0;
+    while ($j < $maxQuestions) {
+?>
+    <div>
+      <tr class="<?php if($_SESSION["correctOrNot"][$j]==1) {echo "correctAns";}else {echo "falseAns";}?>">
+        <td><?=($j+1)?></td>
+        <td>
+          <?php if($_SESSION["correctOrNot"][$j]==1) {
+              echo "Yes";
+            }
+            else {
+              echo "No";
+            }
+          ?>
+          </td>
+        <td>
+          <?php if($_SESSION["difficulties"][$j]=='E') {
+              echo "Easy";
+            }
+            else if ($_SESSION["difficulties"][$j]=='M'){
+              echo "Medium";
+            }
+            else{
+              echo "Hard";
+            }
+          ?>
+        </td>
+      </tr>
+    </div>
+    <?php
+      $j = $j + 1;
+    }
+
+?>
+
+</table>
+</div>
 <form action="" method="post" class="saveForm">
     <div class="row col-12">
       <label class="col-6"> Score: </label>

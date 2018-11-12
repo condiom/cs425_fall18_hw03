@@ -189,3 +189,10 @@ body {
   font-weight: bold;
   font-size: large;
 }
+
+.correctAns{
+  background-color: green;
+}
+.falseAns{
+  background-color: red;
+}
