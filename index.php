@@ -3,6 +3,8 @@
 ?>
 
 
+<meta name="title" content="Home">
+<title>Home</title>
 
 <?php
   if($_SERVER['REQUEST_METHOD']=="GET"){

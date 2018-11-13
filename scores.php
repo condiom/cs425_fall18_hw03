@@ -1,7 +1,8 @@
 <?php
   include("header.php");
 ?>
-
+<meta name="title" content="Scores">
+<title>Scores</title>
 
 <div class="mainwidth">
 

@@ -121,7 +121,7 @@
     <thead>
       <td>No.</td>
       <td>Correct</td>
-      <td>Difficulty</td>
+      <td>Difficulty(points)</td>
     </thead>
 <?php
     $j = 0;
@@ -142,12 +142,30 @@
         <td>
           <?php if($_SESSION["difficulties"][$j]=='E') {
               echo "Easy";
+              if($_SESSION["correctOrNot"][$j]==1) {
+                  echo "(+5)";
+                }
+                else {
+                  echo "(+0)";
+                }
             }
             else if ($_SESSION["difficulties"][$j]=='M'){
               echo "Medium";
+              if($_SESSION["correctOrNot"][$j]==1) {
+                  echo "(+10)";
+                }
+                else {
+                  echo "(+0)";
+                }
             }
             else{
               echo "Hard";
+              if($_SESSION["correctOrNot"][$j]==1) {
+                  echo "(+20)";
+                }
+                else {
+                  echo "(+0)";
+                }
             }
           ?>
         </td>
