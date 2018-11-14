@@ -1,4 +1,4 @@
-#startH1,#highscore {
+#startH1,#highscore,#helpLabel {
   text-align: center;
   padding-top:20px;
 }
@@ -25,7 +25,7 @@ img{
   margin-right: 0;
 }
 
-ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,11 +36,11 @@ ul {
   width: 100%;
 }
 
-li {
+.navbar li {
   float: left;
 }
 
-li a {
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -179,7 +179,7 @@ body {
   text-align: right;
 }
 
-.highscoreContainer{
+.highscoreContainer,.helpContainer{
   margin-left: auto;
   margin-right: auto;
   width: fit-content;

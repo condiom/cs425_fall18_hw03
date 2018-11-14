@@ -190,6 +190,8 @@
           <input type="text" name="nickname" class="col-6"/>
         <?php } else { ?>
             <label class="col-12">Your score saved</label>
+            <meta http-equiv="refresh" content="2;url=index.php" />
+
         <?php } ?>
       </div>
 
