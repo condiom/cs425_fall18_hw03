@@ -16,7 +16,13 @@
   if(isset($_POST["save"])){
       $score = $_SESSION["Score"];
       $nickname = $_POST["nickname"];
-      file_put_contents('data/highScores.txt', "\n".$nickname." ".$score , FILE_APPEND | LOCK_EX);
+      $error = "";
+      if(strcmp($nickname,"")==0){
+        $error = "empty nickname";
+      }
+      else{
+        file_put_contents('data/highScores.txt', "\n".$nickname." ".$score , FILE_APPEND | LOCK_EX);
+      }
   }
 
 ?>
@@ -188,16 +194,24 @@
         <?php if(!isset($_POST["save"])){ ?>
           <label class="col-6 nickname">Nicname: </label>
           <input type="text" name="nickname" class="col-6"/>
-        <?php } else { ?>
-            <label class="col-12">Your score saved</label>
+          </div>
+        <?php } else if(!(isset($error) && strcmp($error,"empty nickname")==0)){ ?>
+            <label class="col-12">Your score is saved</label>
             <meta http-equiv="refresh" content="2;url=index.php" />
-
+            </div>
+        <?php } else{ ?>
+            <label class="col-6 nickname">Nicname: </label>
+            <input type="text" name="nickname" class="col-6"/>
+            </div>
+            <div class="row col-12 PlaySaveButtons">
+              <label class="nickname col-12" style="text-align:center">Nickname can not be empty</label>
+            </div>
         <?php } ?>
-      </div>
+
 
   <div class="row col-12 PlaySaveButtons">
-    <button type="submit" id="playAgain" name="playagain" class="btn btn-success   <?php if(!isset($_POST["save"])){ ?> col-sm-12 col-md-6<?php } else {?> col-12 <?php } ?>">PLAY AGAIN</button>
-    <?php if(!isset($_POST["save"])){ ?>
+    <button type="submit" id="playAgain" name="playagain" class="btn btn-success   <?php if(!isset($_POST["save"]) || (isset($error) && strcmp($error,"empty nickname")==0)){ ?> col-sm-12 col-md-6<?php } else {?> col-12 <?php } ?>">PLAY AGAIN</button>
+    <?php if(!isset($_POST["save"]) || (isset($error) && strcmp($error,"empty nickname")==0)){ ?>
       <button type="submit" id="saveButton" name="save" class="btn btn-success col-sm-12 col-md-6">SAVE</button>
     <?php } ?>
   </div>

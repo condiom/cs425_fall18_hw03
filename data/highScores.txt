@@ -11,6 +11,9 @@ test 3
 condiom 5
 condiom 4
 condiom 14
- 4
 condiom22222 15
 condiom 5
+condiom 20
+condiom 10
+condiom 15
+meri 5
